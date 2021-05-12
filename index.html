@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+<body>
+    <audio controls>
+        <source src="audio/viper.mp3" type="audio/mp3">
+        <source src="audio/viper.ogg" type="audio/ogg">
+        <p>Los archivos de audio no son compatibles.</p>
+    </audio>
+    <video 
+    controls 
+    width="400" 
+    height="400" 
+    autoplay 
+    loop 
+    muted 
+    preload="auto"
+    poster="images/rabbit.png">
+        <source src="video/rabbit320.mp4" type="video/mp4">
+        <source src="video/programacion.webm" type="video/webm">
+        <p>No hay archivos de video compatibles con su dispositivo :( </p>
+        <track kind="subtitles" src="captions/es.vtt" srclang="es" label="esp">
+    </video>
+</body>
+</html>
